@@ -1,0 +1,21 @@
+@media screen and (min-width: 320px) and (max-width: 340px) {
+  .table-container {
+    min-width:20rem;
+    /* margin: 0 auto; */
+  }
+
+}
+@media screen and (min-width: 370px) and (max-width: 450px) {
+  .table-container {
+    min-width:20rem;
+    /* margin: 0 auto; */
+  }
+
+}
+@media screen and (min-width: 370px) and (max-width: 500px) {
+  .table-container {
+    min-width:21rem;
+    /* margin: 0 auto; */
+  }
+
+}
