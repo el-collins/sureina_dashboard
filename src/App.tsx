@@ -6,7 +6,7 @@ import {
   Navigate,
   Outlet,
 } from "react-router-dom";
-import AnalyticsPage from "./pages/analytics";
+
 // Lazy load all components
 const MainLayout = lazy(() =>
   import("./pages/main-layout").then((module) => ({
@@ -14,7 +14,7 @@ const MainLayout = lazy(() =>
   }))
 );
 const Dashboard = lazy(() => import("./pages/dashboard"));
-const Profile = lazy(() => import("./pages/analytics"));
+const AnalyticsPage = lazy(() => import("./pages/analytics"));
 const AdSpendDashboard = lazy(() => import("./pages/ads-spend-dashboard"));
 
 

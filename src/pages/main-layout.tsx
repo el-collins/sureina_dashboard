@@ -5,7 +5,6 @@ import { cn } from "../lib/utils";
 import React, { useMemo, useState } from "react";
 import { IoCloseOutline } from "react-icons/io5";
 import { IoMenuOutline } from "react-icons/io5";
-import { RiSteering2Line } from "react-icons/ri";
 import { TbHomeFilled } from "react-icons/tb";
 import { NavLink, useNavigate } from "react-router-dom";
 import { MdOutlineAnalytics } from "react-icons/md";

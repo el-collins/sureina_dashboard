@@ -287,9 +287,9 @@ const AdSpendDashboard = () => {
   const youtubeData = adPerformanceData[1];
 
   // Format currency
-  const formatCurrency = (value: number): string => {
-    return '$' + value.toLocaleString();
-  };
+  // const formatCurrency = (value: number): string => {
+  //   return '$' + value.toLocaleString();
+  // };
 
   // Chart options
   const barChartOptions = {

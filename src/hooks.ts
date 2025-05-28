@@ -45,7 +45,7 @@ export const useCountdown = (initialTime: number): UseCountdownProps => {
   const [isCounting, setIsCounting] = useState<boolean>(false);
 
   useEffect(() => {
-    let interval: NodeJS.Timeout | null = null;
+    let interval: number | null = null;
 
     if (isCounting && timeLeft > 0) {
       interval = setInterval(() => {
