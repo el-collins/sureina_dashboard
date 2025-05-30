@@ -1,10 +1,10 @@
 // Import icons
 import capLogo2 from "./icons/cap-logo-2.svg";
 import capLogoWhite from "./icons/cap-logo-white.png";
-import whatiscapLogo from "./icons/whatiscap-logo.png";
-import whatiscapLogo2 from "./icons/whatiscap-logo2.png";
+import whatiscapLogo from "./icons/sureina-logo.png";
+import whatiscapLogo2 from "./icons/sureina-logo2.png";
 import capLogo from "./icons/cap-logo.svg";
-import whatiscapLogoWhite from "./icons/whatiscap-logo-white.png";
+
 import googleIcon from "./icons/google_icon.png";
 import quoteIcon from "./icons/quote-icon.png";
 // Import images
@@ -19,7 +19,6 @@ export const appAssets = {
     capLogo2,
     capLogoWhite,
     capLogo,
-    whatiscapLogoWhite,
     whatiscapLogo,
     whatiscapLogo2,
     googleIcon,
